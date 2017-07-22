@@ -1,0 +1,23 @@
+{
+  "name": "gka-tpl-crop",
+  "version": "0.0.2",
+  "description": "gka template crop",
+  "main": "index.js",
+  "scripts": {
+  },
+  "homepage": "https://github.com/joeyguo/gka-tpl-crop",
+  "bugs": {
+    "url": "https://github.com/joeyguo/gka-tpl-crop/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/joeyguo/gka-tpl-crop.git"
+  },
+  "keywords": [
+    "gka",
+    "template",
+    "crop"
+  ],
+  "author": "joeyguo",
+  "license": "MIT"
+}
