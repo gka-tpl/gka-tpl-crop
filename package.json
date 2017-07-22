@@ -1,17 +1,17 @@
 {
   "name": "gka-tpl-crop",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "gka template crop",
   "main": "index.js",
   "scripts": {
   },
-  "homepage": "https://github.com/joeyguo/gka-tpl-crop",
+  "homepage": "https://github.com/gka-tpl/gka-tpl-crop",
   "bugs": {
-    "url": "https://github.com/joeyguo/gka-tpl-crop/issues"
+    "url": "https://github.com/gka-tpl/gka-tpl-crop/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/joeyguo/gka-tpl-crop.git"
+    "url": "git://github.com/gka-tpl/gka-tpl-crop.git"
   },
   "keywords": [
     "gka",
