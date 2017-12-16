@@ -1,8 +1,4 @@
-var pkg = require("../package.json");
 
-module.exports = function html(names, prefix) {
-
-    var  str = `
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,7 +14,7 @@ module.exports = function html(names, prefix) {
 
     <div style="position: fixed; bottom: 10px;">
         Powered By <a target="_blank" href="https://github.com/gkajs/gka">gka</a> .
-        Template By <a target="_blank" href="https://github.com/gkajs/gka-tpl-crop">gka-tpl-crop</a> ${pkg.version}
+        Template By <a target="_blank" href="https://github.com/gkajs/gka-tpl-crop">gka-tpl-crop</a> 1.1.1
     </div>
 
     <script>
@@ -33,15 +29,11 @@ module.exports = function html(names, prefix) {
         });
     }
 
-    var imgNames = ${names};
+    var imgNames = ["a01.png","a02.png","a03.png","a04.png","a05.png","a06.png","a07.png","a08.png","a09.png","a10.png","a11.png","a12.png","a13.png","a14.png","a15.png","a16.png","a17.png","a18.png","a19.png","a20.png"];
 
     loadImage(imgNames, function() {
-        document.getElementById('gka').className += " ${prefix}animation"
+        document.getElementById('gka').className += " animation"
     }, "img/")
     </script>
 </body>
 </html>
-`;
-
-    return str;
-}
