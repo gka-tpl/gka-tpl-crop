@@ -1,10 +1,9 @@
 {
   "name": "gka-tpl-crop",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "gka template crop",
   "main": "index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "homepage": "https://github.com/gkajs/gka-tpl-crop",
   "bugs": {
     "url": "https://github.com/gkajs/gka-tpl-crop/issues"
@@ -19,5 +18,8 @@
     "crop"
   ],
   "author": "joeyguo",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "gka-utils": "0.0.1"
+  }
 }
